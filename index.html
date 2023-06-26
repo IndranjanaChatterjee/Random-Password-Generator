@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Password Generator </h1>
+        <div class="input">
+            <input type="text" placeholder="Password" id="txt" >
+            <i class='bx bxs-copy-alt' id="icon"></i>
+
+        </div>
+        <div class="range">
+            <input type="range" id="range" min="5" max="15" value="5">
+            <span class="num">5</span>
+        </div>
+        <div class="btn"><Button id="submit">Generate Password</Button></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
